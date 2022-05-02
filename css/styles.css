@@ -12264,3 +12264,7 @@ html {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.rounded-4 {
+  border-radius: 1rem !important;
+}
