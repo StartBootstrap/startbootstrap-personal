@@ -12,6 +12,8 @@ $font-family-sans-serif: 'Plus Jakarta Sans';
 
 $font-weight-light: 200;
 
+$border-radius-xl: 1rem;
+
 // Import Bootstrap
 @import "bootstrap/scss/bootstrap.scss";
 
@@ -122,4 +124,8 @@ html {
     background: -webkit-linear-gradient(315deg, $primary 0%, $secondary 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.rounded-4 {
+    border-radius: $border-radius-xl !important;
 }

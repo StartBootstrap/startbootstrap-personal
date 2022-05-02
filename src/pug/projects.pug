@@ -32,7 +32,7 @@ html(lang='en')
                         .col-xxl-7.col-xl-8.col-lg-10
 
                             // Project Card 1
-                            .card.overflow-hidden.shadow-lg.border-0.mb-5
+                            .card.overflow-hidden.shadow.rounded-4.border-0.mb-5
                                 .card-body.p-0
                                     .d-flex.align-items-center
                                         .p-5
@@ -41,7 +41,7 @@ html(lang='en')
                                         img.img-fluid(src='https://dummyimage.com/300x400/343a40/6c757d', alt='...')
 
                             // Project Card 2
-                            .card.overflow-hidden.shadow-lg.border-0
+                            .card.overflow-hidden.shadow.rounded-4.border-0
                                 .card-body.p-0
                                     .d-flex.align-items-center
                                         .p-5
@@ -50,11 +50,11 @@ html(lang='en')
                                         img.img-fluid(src='https://dummyimage.com/300x400/343a40/6c757d', alt='...')
 
             // Call to action section
-            section.py-5.bg-secondary
+            section.py-5.bg-gradient-primary-to-secondary.text-white
                 .container.px-5.my-5
                     .text-center
                         h2.display-4.fw-bolder.mb-4 Let's build something together
-                        a.btn.btn-lg.btn-primary(href='contact.html') Contact me
+                        a.btn.btn-outline-light.btn-lg.px-5.py-3.fs-6.fw-bolder(href='contact.html') Contact me
 
         // Footer
         include includes/footer.pug
