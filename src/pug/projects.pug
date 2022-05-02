@@ -1,0 +1,62 @@
+doctype html
+html(lang='en')
+
+    head
+
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description', content='')
+        meta(name='author', content='')
+
+        title Modern Business - Start Bootstrap Template
+
+        // Favicon
+        link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
+
+        include includes/css.pug
+
+    body.d-flex.flex-column.h-100.bg-light
+
+        main.flex-shrink-0
+
+            // Navigation
+            include includes/navbar.pug
+
+            // Projects Section
+            section
+                .container.px-5.my-5
+                    .text-center.mb-5
+                        h1.fw-bolder.mb-0 Projects
+                    .row.gx-5.justify-content-center
+
+                        .col-xxl-7.col-xl-8.col-lg-10
+
+                            // Project Card 1
+                            .card.overflow-hidden.shadow-lg.border-0.mb-5
+                                .card-body.p-0
+                                    .d-flex.align-items-center
+                                        .p-5
+                                            h2 Project Name 1
+                                            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius at enim eum illum aperiam placeat esse? Mollitia omnis minima saepe recusandae libero, iste ad asperiores! Explicabo commodi quo itaque! Ipsam!
+                                        img.img-fluid(src='https://dummyimage.com/300x400/343a40/6c757d', alt='...')
+
+                            // Project Card 2
+                            .card.overflow-hidden.shadow-lg.border-0
+                                .card-body.p-0
+                                    .d-flex.align-items-center
+                                        .p-5
+                                            h2 Project Name 2
+                                            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius at enim eum illum aperiam placeat esse? Mollitia omnis minima saepe recusandae libero, iste ad asperiores! Explicabo commodi quo itaque! Ipsam!
+                                        img.img-fluid(src='https://dummyimage.com/300x400/343a40/6c757d', alt='...')
+
+            // Call to action section
+            section.py-5.bg-secondary
+                .container.px-5.my-5
+                    .text-center
+                        h2.display-4.fw-bolder.mb-4 Let's build something together
+                        a.btn.btn-lg.btn-primary(href='contact.html') Contact me
+
+        // Footer
+        include includes/footer.pug
+
+        include includes/scripts.pug

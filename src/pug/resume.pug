@@ -1,0 +1,118 @@
+doctype html
+html(lang='en')
+
+    head
+
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description', content='')
+        meta(name='author', content='')
+
+        title Modern Business - Start Bootstrap Template
+
+        // Favicon
+        link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
+
+        include includes/css.pug
+
+    body.d-flex.flex-column.h-100.bg-light
+
+        main.flex-shrink-0
+
+            // Navigation
+            include includes/navbar.pug
+
+            // Page Content
+            .container.px-5.my-5
+                .text-center.mb-5
+                    h1.fw-bolder.mb-0 Resume
+                .row.gx-5.justify-content-center
+
+                    .col-xl-7
+
+                        // Experience Section
+                        section
+                            .d-flex.align-items-center.justify-content-between.mb-4
+                                h2.fw-bolder.mb-0 Experience
+                                a.btn.btn-primary(href='#!') Download Resume
+
+                            // Experience Card 1
+                            .card.shadow-lg.border-0.mb-5
+                                .card-body.p-5
+                                    .d-flex.align-items-center
+                                        .flex-shrink-0.me-5
+                                            strong.mb-2 2019 - Present
+                                            div Job Title
+                                            div Location
+                                        div Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus laudantium, voluptatem quis repellendus eaque sit animi illo ipsam amet officiis corporis sed aliquam non voluptate corrupti excepturi maxime porro fuga.
+
+                            // Experience Card 2
+                            .card.shadow-lg.border-0.mb-5
+                                .card-body.p-5
+                                    .d-flex.align-items-center
+                                        .flex-shrink-0.me-5
+                                            strong.mb-2 2017 - 2019
+                                            div Job Title
+                                            div Location
+                                        div Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam odit tempora vitae consequatur voluptate sequi quod adipisci sit beatae? At placeat voluptates deserunt ipsam impedit cum, officia nisi numquam repellat!
+
+                        // Education Section
+                        section
+                            h2.fw-bolder.mb-4 Education
+                            
+                            // Education Card 1
+                            .card.shadow-lg.border-0.mb-5
+                                .card-body.p-5
+                                    .d-flex.align-items-center
+                                        .flex-shrink-0.me-5
+                                            strong.mb-2 2015 - 2017
+                                            div Institution Name
+                                            div Degree Level
+                                            div Location
+                                        div Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia modi accusantium perferendis vitae quisquam, architecto incidunt maxime a quas possimus odio minima facilis voluptatibus laboriosam pariatur fugiat illo quasi sint!
+
+                            // Education Card 2
+                            .card.shadow-lg.border-0.mb-5
+                                .card-body.p-5
+                                    .d-flex.align-items-center
+                                        .flex-shrink-0.me-5
+                                            strong.mb-2 2012 - 2015
+                                            div Institution Name
+                                            div Degree Level
+                                            div Location
+                                        div Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores rerum ullam, eveniet vitae ab molestiae necessitatibus consequatur nobis dolorem amet maiores, id omnis, in earum ipsam illum! At, deserunt quo!
+
+                        // Divider
+                        .pb-5
+
+                        // Skills Section
+                        section
+                            // Skillset Card
+                            .card.shadow-lg.border-0.mb-5
+                                .card-body.p-5
+                                    .mb-5
+                                        h3.mb-4 Professional Skills
+                                        .row.gx-5.mb-4
+                                            .col Item
+                                            .col Item
+                                            .col Item
+                                        .row.gx-5
+                                            .col Item
+                                            .col Item
+                                            .col 
+                                    div
+                                        h3.mb-4 Languages
+                                        .row.gx-5.mb-4
+                                            .col Item
+                                            .col Item
+                                            .col Item
+                                        .row.gx-5
+                                            .col Item
+                                            .col Item
+                                            .col 
+
+
+        // Footer
+        include includes/footer.pug
+
+        include includes/scripts.pug

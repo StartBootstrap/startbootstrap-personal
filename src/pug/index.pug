@@ -1,0 +1,59 @@
+doctype html
+html(lang='en')
+
+    head
+
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description', content='')
+        meta(name='author', content='')
+
+        title Personal - Start Bootstrap Theme
+
+        // Favicon
+        link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
+
+        include includes/css.pug
+
+    body.d-flex.flex-column.h-100
+
+        main.flex-shrink-0
+
+            // Navigation
+            include includes/navbar.pug
+
+            // Header
+            header.py-5
+                .container.px-5
+                    .row.gx-5.align-items-center
+                        .col-xxl-5
+                            // Header text content
+                            .text-center.text-xxl-start
+                                .badge.bg-gradient-primary-to-secondary.text-white.mb-4
+                                    .text-uppercase Design &middot; Development &middot; Marketing
+                                .fs-3.fw-light.text-muted I can help your business to
+                                h1.display-3.fw-bolder.mb-5
+                                    span.text-gradient.d-inline Get online and grow fast
+                                .d-grid.gap-3.d-sm-flex.justify-content-sm-center.justify-content-xxl-start
+                                    a.btn.btn-primary.btn-lg.px-5.py-3.me-sm-3.fs-6.fw-bolder(href='resume.html') Resume
+                                    a.btn.btn-outline-dark.btn-lg.px-5.py-3.fs-6.fw-bolder(href='projects.html') Projects
+                        .col-xxl-7
+                            // Header profile picture
+                            .d-flex.justify-content-center.mt-5.mt-xxl-0
+                                .profile.bg-gradient-primary-to-secondary
+                                    // TIP: For best results, use a photo with a transparent background like the demo example below
+                                    // Watch a tutorial on how to do this on YouTube (link)
+                                    img.profile-img(src='/assets/profile.png', alt='...')
+                                    .dots-1
+                                        include includes/svg-dots.pug
+                                    .dots-2
+                                        include includes/svg-dots.pug
+                                    .dots-3
+                                        include includes/svg-dots.pug
+                                    .dots-4
+                                        include includes/svg-dots.pug
+
+        // Footer
+        include includes/footer.pug
+
+        include includes/scripts.pug
