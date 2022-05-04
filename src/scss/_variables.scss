@@ -1,0 +1,19 @@
+// Variables
+
+// Override Bootstrap Colors
+$blue: #1e30f3;
+$pink: #e21e80;
+
+// Redefine Bootstrap State Colors
+$primary: $blue;
+$secondary: $pink;
+
+// Bootstrap Variable Functions
+$enable-negative-margins: true;
+
+// Override Bootstrap Typography Variables
+$font-family-sans-serif: 'Plus Jakarta Sans';
+$font-weight-light: 200;
+
+// Custom Border Variables
+$border-radius-xl: 1rem;

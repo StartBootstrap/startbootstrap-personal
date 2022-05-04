@@ -12191,6 +12191,21 @@ html {
   height: 100%;
 }
 
+.bg-gradient-primary-to-secondary {
+  background: #1e30f3;
+  background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
+}
+
+.text-gradient {
+  background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.rounded-4 {
+  border-radius: 1rem !important;
+}
+
 .feature {
   display: inline-flex;
   align-items: center;
@@ -12252,19 +12267,4 @@ html {
 }
 .profile .dots-4 svg {
   fill: #1e30f3;
-}
-
-.bg-gradient-primary-to-secondary {
-  background: #1e30f3;
-  background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
-}
-
-.text-gradient {
-  background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.rounded-4 {
-  border-radius: 1rem !important;
 }

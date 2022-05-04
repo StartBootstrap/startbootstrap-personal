@@ -1,0 +1,70 @@
+// Custom component for profile picture on the homepage
+
+// TODO
+
+// Create a responsive breakpoint above a certain threshold
+// to cap the size of everything after that point
+
+.profile {
+    position: relative;
+    height: 35vw;
+    width: 35vw;
+    border-radius: 5vw;
+    margin-top: 5vw;
+    max-height: 40rem;
+    max-width: 40rem;
+
+    .profile-img {
+        height: 40vw;
+        max-height: 45rem;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .dots-1 {
+        position: absolute;
+        width: 1.5vw;
+        right: 0.75vw;
+        top: 4vw;
+
+        svg {
+            fill: $white;
+        }
+    }
+
+    .dots-2 {
+        position: absolute;
+        width: 1.5vw;
+        right: -2vw;
+        top: 6.05vw;
+
+        svg {
+            fill: $primary;
+        }
+    }
+
+    .dots-3 {
+        position: absolute;
+        width: 1.5vw;
+        left: 0.75vw;
+        bottom: 6.05vw;
+
+        svg {
+            fill: $white;
+        }
+    }
+
+    .dots-4 {
+        position: absolute;
+        width: 1.5vw;
+        left: -2vw;
+        bottom: 4vw;
+
+        svg {
+            fill: $primary;
+        }
+    }
+
+}

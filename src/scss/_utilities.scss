@@ -1,0 +1,19 @@
+// Custom utilities to extend Bootstrap's utility classes
+
+// Background gradient utility for a primary to secondary gradient
+.bg-gradient-primary-to-secondary {
+    background: $primary;
+    background: linear-gradient(135deg, $primary 0%, $secondary 100%);
+}
+
+// Utility for creating gradient text
+.text-gradient {
+    background: -webkit-linear-gradient(315deg, $primary 0%, $secondary 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+// Additional rounded border utility that uses a custom XL border radius (defined in _variables.scss)
+.rounded-4 {
+    border-radius: $border-radius-xl !important;
+}

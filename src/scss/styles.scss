@@ -1,131 +1,13 @@
-// Variables
-
-$blue: #1e30f3;
-$pink: #e21e80;
-
-$primary: $blue;
-$secondary: $pink;
-
-$enable-negative-margins: true;
-
-$font-family-sans-serif: 'Plus Jakarta Sans';
-
-$font-weight-light: 200;
-
-$border-radius-xl: 1rem;
+// Import Variables
+@import "variables";
 
 // Import Bootstrap
 @import "bootstrap/scss/bootstrap.scss";
 
-// Resets for body and html height for sticky footer
-body,
-html {
-    height: 100%;
-}
+// Import Global Theme Styles
+@import "global";
+@import "utilities";
 
-// Custom SCSS for feature component with Bootstrap icon
-.feature {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    height: 3rem;
-    width: 3rem;
-    font-size: 1.5rem;
-}
-
-// Background image for featured blog post
-// .bg-featured-blog {
-//     height: 100%;
-//     width: 100%;
-//     background-size: cover;
-//     background-position: center;
-//     background-repeat: no-repeat;
-//     min-height: 15rem;
-// }
-
-
-
-
-// TODO
-
-// Create a responsive breakpoint above a certain threshold
-// to cap the size of everything after that point
-
-.profile {
-    position: relative;
-    height: 35vw;
-    width: 35vw;
-    border-radius: 5vw;
-    margin-top: 5vw;
-    max-height: 40rem;
-    max-width: 40rem;
-
-    .profile-img {
-        height: 40vw;
-        max-height: 45rem;
-        position: absolute;
-        bottom: 0;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-
-    .dots-1 {
-        position: absolute;
-        width: 1.5vw;
-        right: 0.75vw;
-        top: 4vw;
-
-        svg {
-            fill: $white;
-        }
-    }
-
-    .dots-2 {
-        position: absolute;
-        width: 1.5vw;
-        right: -2vw;
-        top: 6.05vw;
-
-        svg {
-            fill: $primary;
-        }
-    }
-
-    .dots-3 {
-        position: absolute;
-        width: 1.5vw;
-        left: 0.75vw;
-        bottom: 6.05vw;
-
-        svg {
-            fill: $white;
-        }
-    }
-
-    .dots-4 {
-        position: absolute;
-        width: 1.5vw;
-        left: -2vw;
-        bottom: 4vw;
-
-        svg {
-            fill: $primary;
-        }
-    }
-
-}
-
-.bg-gradient-primary-to-secondary {
-    background: $primary;
-    background: linear-gradient(135deg, $primary 0%, $secondary 100%);
-}
-
-.text-gradient {
-    background: -webkit-linear-gradient(315deg, $primary 0%, $secondary 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.rounded-4 {
-    border-radius: $border-radius-xl !important;
-}
+// Import Custom Component Styles
+@import "components/feature";
+@import "components/profile";
