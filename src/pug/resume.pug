@@ -25,7 +25,8 @@ html(lang='en')
             // Page Content
             .container.px-5.my-5
                 .text-center.mb-5
-                    h1.fw-bolder.mb-0 Resume
+                    h1.display-5.fw-bolder.mb-0
+                        span.text-gradient.d-inline Resume
                 .row.gx-5.justify-content-center
 
                     .col-xl-7
@@ -33,7 +34,7 @@ html(lang='en')
                         // Experience Section
                         section
                             .d-flex.align-items-center.justify-content-between.mb-4
-                                h2.fw-bolder.mb-0 Experience
+                                h2.text-primary.fw-bolder.mb-0 Experience
                                 a.btn.btn-primary(href='#!') Download Resume
 
                             // Experience Card 1
@@ -58,7 +59,7 @@ html(lang='en')
 
                         // Education Section
                         section
-                            h2.fw-bolder.mb-4 Education
+                            h2.text-secondary.fw-bolder.mb-4 Education
                             
                             // Education Card 1
                             .card.shadow.border-0.rounded-4.mb-5
@@ -90,26 +91,49 @@ html(lang='en')
                             // Skillset Card
                             .card.shadow.border-0.rounded-4.mb-5
                                 .card-body.p-5
+                                    //- Professional skills lis
                                     .mb-5
-                                        h3.mb-4 Professional Skills
-                                        .row.gx-5.mb-4
-                                            .col Item
-                                            .col Item
-                                            .col Item
-                                        .row.gx-5
-                                            .col Item
-                                            .col Item
-                                            .col 
-                                    div
-                                        h3.mb-4 Languages
-                                        .row.gx-5.mb-4
-                                            .col Item
-                                            .col Item
-                                            .col Item
-                                        .row.gx-5
-                                            .col Item
-                                            .col Item
-                                            .col 
+                                        .d-flex.align-items-center.mb-4
+                                            .feature.bg-primary.bg-gradient-primary-to-secondary.text-white.rounded-3.me-3
+                                                i.bi.bi-tools
+                                            h3.fw-bolder.mb-0
+                                                span.text-gradient.d-inline Professional Skills
+                                        .row.row-cols-1.row-cols-md-3.gx-4.mb-4
+                                            .col.mb-4.mb-md-0
+                                                .d-flex.align-items-center.bg-light.rounded-4.p-3.h-100 SEO/SEM Marketing
+                                            .col.mb-4.mb-md-0
+                                                .d-flex.align-items-center.bg-light.rounded-4.p-3.h-100 Statistical Analysis
+                                            .col
+                                                .d-flex.align-items-center.bg-light.rounded-4.p-3.h-100 Web Development
+                                        .row.row-cols-1.row-cols-md-3.gx-4
+                                            .col.mb-4.mb-md-0
+                                                .d-flex.align-items-center.bg-light.rounded-4.p-3.h-100 Network Security
+                                            .col.mb-4.mb-md-0
+                                                .d-flex.align-items-center.bg-light.rounded-4.p-3.h-100 Adobe Software Suite
+                                            .col
+                                                .d-flex.align-items-center.bg-light.rounded-4.p-3.h-100 User Interface Design
+                                    //- Languages list
+                                    //- (Copy this section and paste below, and change the mb-0 to mb-5 to add additional lists)
+                                    .mb-0
+                                        .d-flex.align-items-center.mb-4
+                                            .feature.bg-primary.bg-gradient-primary-to-secondary.text-white.rounded-3.me-3
+                                                i.bi.bi-code-slash
+                                            h3.fw-bolder.mb-0
+                                                span.text-gradient.d-inline Languages
+                                        .row.row-cols-1.row-cols-md-3.gx-4.mb-4
+                                            .col.mb-4.mb-md-0
+                                                .d-flex.align-items-center.bg-light.rounded-4.p-3.h-100 HTML
+                                            .col.mb-4.mb-md-0
+                                                .d-flex.align-items-center.bg-light.rounded-4.p-3.h-100 CSS
+                                            .col
+                                                .d-flex.align-items-center.bg-light.rounded-4.p-3.h-100 JavaScript
+                                        .row.row-cols-1.row-cols-md-3.gx-4
+                                            .col.mb-4.mb-md-0
+                                                .d-flex.align-items-center.bg-light.rounded-4.p-3.h-100 Python
+                                            .col.mb-4.mb-md-0
+                                                .d-flex.align-items-center.bg-light.rounded-4.p-3.h-100 Ruby
+                                            .col
+                                                .d-flex.align-items-center.bg-light.rounded-4.p-3.h-100 Node.js
 
 
         // Footer
