@@ -8,7 +8,7 @@ html(lang='en')
         meta(name='description', content='')
         meta(name='author', content='')
 
-        title Modern Business - Start Bootstrap Template
+        title Personal - Start Bootstrap Template
 
         // Favicon
         link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
@@ -29,33 +29,43 @@ html(lang='en')
                         span.text-gradient.d-inline Resume
                 .row.gx-5.justify-content-center
 
-                    .col-xl-7
+                    .col-lg-11.col-xl-9.col-xxl-8
 
                         // Experience Section
                         section
                             .d-flex.align-items-center.justify-content-between.mb-4
                                 h2.text-primary.fw-bolder.mb-0 Experience
-                                a.btn.btn-primary(href='#!') Download Resume
+                                // Download resume button
+                                // Note: Set the link href target to a PDF file within your project
+                                a.btn.btn-primary.px-4.py-3(href='#!')
+                                    .d-inline-block.bi.bi-download.me-2
+                                    | Download Resume
 
                             // Experience Card 1
                             .card.shadow.border-0.rounded-4.mb-5
                                 .card-body.p-5
-                                    .d-flex.align-items-center
-                                        .flex-shrink-0.me-5
-                                            strong.mb-2 2019 - Present
-                                            div Job Title
-                                            div Location
-                                        div Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus laudantium, voluptatem quis repellendus eaque sit animi illo ipsam amet officiis corporis sed aliquam non voluptate corrupti excepturi maxime porro fuga.
+                                    .row.align-items-center.gx-5
+                                        .col.text-center.text-lg-start.mb-4.mb-lg-0
+                                            .bg-light.p-4.rounded-4
+                                                .text-primary.fw-bolder.mb-2 2019 - Present
+                                                .small.fw-bolder Web Developer
+                                                .small.text-muted Stark Industries
+                                                .small.text-muted Los Angeles, CA
+                                        .col-lg-8
+                                            div Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus laudantium, voluptatem quis repellendus eaque sit animi illo ipsam amet officiis corporis sed aliquam non voluptate corrupti excepturi maxime porro fuga.
 
                             // Experience Card 2
                             .card.shadow.border-0.rounded-4.mb-5
                                 .card-body.p-5
-                                    .d-flex.align-items-center
-                                        .flex-shrink-0.me-5
-                                            strong.mb-2 2017 - 2019
-                                            div Job Title
-                                            div Location
-                                        div Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam odit tempora vitae consequatur voluptate sequi quod adipisci sit beatae? At placeat voluptates deserunt ipsam impedit cum, officia nisi numquam repellat!
+                                    .row.align-items-center.gx-5
+                                        .col.text-center.text-lg-start.mb-4.mb-lg-0
+                                            .bg-light.p-4.rounded-4
+                                                .text-primary.fw-bolder.mb-2 2017 - 2019
+                                                .small.fw-bolder SEM Specialist
+                                                .small.text-muted Wayne Enterprises
+                                                .small.text-muted Gotham City, NY
+                                        .col-lg-8
+                                            div Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus laudantium, voluptatem quis repellendus eaque sit animi illo ipsam amet officiis corporis sed aliquam non voluptate corrupti excepturi maxime porro fuga.
 
                         // Education Section
                         section
@@ -64,24 +74,34 @@ html(lang='en')
                             // Education Card 1
                             .card.shadow.border-0.rounded-4.mb-5
                                 .card-body.p-5
-                                    .d-flex.align-items-center
-                                        .flex-shrink-0.me-5
-                                            strong.mb-2 2015 - 2017
-                                            div Institution Name
-                                            div Degree Level
-                                            div Location
-                                        div Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia modi accusantium perferendis vitae quisquam, architecto incidunt maxime a quas possimus odio minima facilis voluptatibus laboriosam pariatur fugiat illo quasi sint!
+                                     .row.align-items-center.gx-5
+                                        .col.text-center.text-lg-start.mb-4.mb-lg-0
+                                            .bg-light.p-4.rounded-4
+                                                .text-secondary.fw-bolder.mb-2 2015 - 2017
+                                                .mb-2
+                                                    .small.fw-bolder Barnett College
+                                                    .small.text-muted Fairfield, NY
+                                                .fst-italic
+                                                    .small.text-muted Master's
+                                                    .small.text-muted Web Development
+                                        .col-lg-8
+                                            div Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus laudantium, voluptatem quis repellendus eaque sit animi illo ipsam amet officiis corporis sed aliquam non voluptate corrupti excepturi maxime porro fuga.
 
                             // Education Card 2
                             .card.shadow.border-0.rounded-4.mb-5
                                 .card-body.p-5
-                                    .d-flex.align-items-center
-                                        .flex-shrink-0.me-5
-                                            strong.mb-2 2012 - 2015
-                                            div Institution Name
-                                            div Degree Level
-                                            div Location
-                                        div Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores rerum ullam, eveniet vitae ab molestiae necessitatibus consequatur nobis dolorem amet maiores, id omnis, in earum ipsam illum! At, deserunt quo!
+                                    .row.align-items-center.gx-5
+                                        .col.text-center.text-lg-start.mb-4.mb-lg-0
+                                            .bg-light.p-4.rounded-4
+                                                .text-secondary.fw-bolder.mb-2 2011 - 2015
+                                                .mb-2
+                                                    .small.fw-bolder ULA
+                                                    .small.text-muted Los Angeles, CA
+                                                .fst-italic
+                                                    .small.text-muted Undergraduate
+                                                    .small.text-muted Computer Science
+                                        .col-lg-8
+                                            div Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus laudantium, voluptatem quis repellendus eaque sit animi illo ipsam amet officiis corporis sed aliquam non voluptate corrupti excepturi maxime porro fuga.
 
                         // Divider
                         .pb-5
@@ -98,14 +118,14 @@ html(lang='en')
                                                 i.bi.bi-tools
                                             h3.fw-bolder.mb-0
                                                 span.text-gradient.d-inline Professional Skills
-                                        .row.row-cols-1.row-cols-md-3.gx-4.mb-4
+                                        .row.row-cols-1.row-cols-md-3.mb-4
                                             .col.mb-4.mb-md-0
                                                 .d-flex.align-items-center.bg-light.rounded-4.p-3.h-100 SEO/SEM Marketing
                                             .col.mb-4.mb-md-0
                                                 .d-flex.align-items-center.bg-light.rounded-4.p-3.h-100 Statistical Analysis
                                             .col
                                                 .d-flex.align-items-center.bg-light.rounded-4.p-3.h-100 Web Development
-                                        .row.row-cols-1.row-cols-md-3.gx-4
+                                        .row.row-cols-1.row-cols-md-3
                                             .col.mb-4.mb-md-0
                                                 .d-flex.align-items-center.bg-light.rounded-4.p-3.h-100 Network Security
                                             .col.mb-4.mb-md-0
@@ -119,14 +139,14 @@ html(lang='en')
                                                 i.bi.bi-code-slash
                                             h3.fw-bolder.mb-0
                                                 span.text-gradient.d-inline Languages
-                                        .row.row-cols-1.row-cols-md-3.gx-4.mb-4
+                                        .row.row-cols-1.row-cols-md-3.mb-4
                                             .col.mb-4.mb-md-0
                                                 .d-flex.align-items-center.bg-light.rounded-4.p-3.h-100 HTML
                                             .col.mb-4.mb-md-0
                                                 .d-flex.align-items-center.bg-light.rounded-4.p-3.h-100 CSS
                                             .col
                                                 .d-flex.align-items-center.bg-light.rounded-4.p-3.h-100 JavaScript
-                                        .row.row-cols-1.row-cols-md-3.gx-4
+                                        .row.row-cols-1.row-cols-md-3
                                             .col.mb-4.mb-md-0
                                                 .d-flex.align-items-center.bg-light.rounded-4.p-3.h-100 Python
                                             .col.mb-4.mb-md-0
