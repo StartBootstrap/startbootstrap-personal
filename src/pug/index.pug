@@ -24,7 +24,7 @@ html(lang='en')
 
             // Header
             header.py-5
-                .container.px-5
+                .container.px-5.pb-5
                     .row.gx-5.align-items-center
                         .col-xxl-5
                             // Header text content
@@ -34,7 +34,7 @@ html(lang='en')
                                 .fs-3.fw-light.text-muted I can help your business to
                                 h1.display-3.fw-bolder.mb-5
                                     span.text-gradient.d-inline Get online and grow fast
-                                .d-grid.gap-3.d-sm-flex.justify-content-sm-center.justify-content-xxl-start
+                                .d-grid.gap-3.d-sm-flex.justify-content-sm-center.justify-content-xxl-start.mb-3
                                     a.btn.btn-primary.btn-lg.px-5.py-3.me-sm-3.fs-6.fw-bolder(href='resume.html') Resume
                                     a.btn.btn-outline-dark.btn-lg.px-5.py-3.fs-6.fw-bolder(href='projects.html') Projects
                         .col-xxl-7
@@ -52,6 +52,24 @@ html(lang='en')
                                         include includes/svg-dots.pug
                                     .dots-4
                                         include includes/svg-dots.pug
+
+            // About Section
+            section.bg-light.py-5
+                .container.px-5
+                    .row.gx-5.justify-content-center
+                        .col-xxl-8
+                            .text-center.my-5
+                                h2.display-5.fw-bolder
+                                    span.text-gradient.d-inline About Me
+                                p.lead.fw-light.mb-4 My name is Start Bootstrap and I help brands grow.
+                                p.text-muted Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit dolorum itaque qui unde quisquam consequatur autem. Eveniet quasi nobis aliquid cumque officiis sed rem iure ipsa! Praesentium ratione atque dolorem?
+                                .d-flex.justify-content-center.fs-2.gap-4
+                                    a(href="#!") 
+                                        i.bi.bi-twitter
+                                    a(href="#!") 
+                                        i.bi.bi-linkedin
+                                    a(href="#!") 
+                                        i.bi.bi-github
 
         // Footer
         include includes/footer.pug
