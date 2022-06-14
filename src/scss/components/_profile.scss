@@ -1,21 +1,16 @@
 // Custom component for profile picture on the homepage
 
-// TODO
-
-// Create a responsive breakpoint above a certain threshold
-// to cap the size of everything after that point
-
 .profile {
     position: relative;
-    height: 35vw;
-    width: 35vw;
+    height: 75vw;
+    width: 75vw;
     border-radius: 5vw;
     margin-top: 5vw;
     max-height: 40rem;
     max-width: 40rem;
 
     .profile-img {
-        height: 40vw;
+        height: 80vw;
         max-height: 45rem;
         position: absolute;
         bottom: 0;
@@ -25,8 +20,8 @@
 
     .dots-1 {
         position: absolute;
-        width: 1.5vw;
-        right: 0.75vw;
+        width: 3vw;
+        right: 1.5vw;
         top: 4vw;
 
         svg {
@@ -36,8 +31,8 @@
 
     .dots-2 {
         position: absolute;
-        width: 1.5vw;
-        right: -2vw;
+        width: 3vw;
+        right: -4vw;
         top: 6.05vw;
 
         svg {
@@ -47,8 +42,8 @@
 
     .dots-3 {
         position: absolute;
-        width: 1.5vw;
-        left: 0.75vw;
+        width: 3vw;
+        left: 1.5vw;
         bottom: 6.05vw;
 
         svg {
@@ -58,8 +53,8 @@
 
     .dots-4 {
         position: absolute;
-        width: 1.5vw;
-        left: -2vw;
+        width: 3vw;
+        left: -4vw;
         bottom: 4vw;
 
         svg {
@@ -67,4 +62,131 @@
         }
     }
 
+}
+
+// Responsive styling for profile photo component
+
+@include media-breakpoint-up(sm) {
+    .profile {
+        height: 60vw;
+        width: 60vw;
+    
+        .profile-img {
+            height: 65vw;
+        }
+    
+        .dots-1 {
+            width: 3vw;
+            right: 1.5vw;
+        }
+    
+        .dots-2 {
+            width: 3vw;
+            right: -4vw;
+        }
+    
+        .dots-3 {
+            width: 3vw;
+            left: 1.5vw;
+        }
+    
+        .dots-4 {
+            width: 3vw;
+            left: -4vw;
+        }
+    
+    }
+}
+@include media-breakpoint-up(md) {
+    .profile {
+        height: 50vw;
+        width: 50vw;
+    
+        .profile-img {
+            height: 55vw;
+        }
+    
+        .dots-1 {
+            width: 3vw;
+            right: 1.5vw;
+        }
+    
+        .dots-2 {
+            width: 3vw;
+            right: -4vw;
+        }
+    
+        .dots-3 {
+            width: 3vw;
+            left: 1.5vw;
+        }
+    
+        .dots-4 {
+            width: 3vw;
+            left: -4vw;
+        }
+    
+    }
+}
+@include media-breakpoint-up(lg) {
+    .profile {
+        height: 40vw;
+        width: 40vw;
+    
+        .profile-img {
+            height: 45vw;
+        }
+    
+        .dots-1 {
+            width: 1.5vw;
+            right: 0.75vw;
+        }
+    
+        .dots-2 {
+            width: 1.5vw;
+            right: -2vw;
+        }
+    
+        .dots-3 {
+            width: 1.5vw;
+            left: 0.75vw;
+        }
+    
+        .dots-4 {
+            width: 1.5vw;
+            left: -2vw;
+        }
+    
+    }
+}
+
+@include media-breakpoint-up(xl) {
+    .profile {
+        height: 35vw;
+        width: 35vw;
+
+        .profile-img {
+            height: 40vw;
+        }
+
+        .dots-1 {
+            width: 1.5vw;
+            right: 0.75vw;
+        }
+
+        .dots-2 {
+            width: 1.5vw;
+            right: -2vw;
+        }
+
+        .dots-3 {
+            width: 1.5vw;
+            left: 0.75vw;
+        }
+
+        .dots-4 {
+            width: 1.5vw;
+            left: -2vw;
+        }
+    }
 }
