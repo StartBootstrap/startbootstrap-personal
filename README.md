@@ -4,7 +4,7 @@
 
 ## Preview
 
-[![Personal Preview](https://assets.startbootstrap.com/img/screenshots/templates/personal.png)](https://startbootstrap.github.io/startbootstrap-personal/)
+[![Personal Preview](https://assets.startbootstrap.com/img/screenshots/themes/personal.png)](https://startbootstrap.github.io/startbootstrap-personal/)
 
 **[View Live Preview](https://startbootstrap.github.io/startbootstrap-personal/)**
 
