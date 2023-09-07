@@ -11731,4 +11731,7 @@ html {
     width: 1.5vw;
     left: -2vw;
   }
+  img.square {
+    width:55vh
+  }
 }
