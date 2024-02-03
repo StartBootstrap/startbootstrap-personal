@@ -1,5 +1,5 @@
 {
-    "title": "Personal",
+    "title": "skivywebsite",
     "name": "startbootstrap-personal",
     "version": "1.0.1",
     "scripts": {
@@ -21,20 +21,7 @@
         "theme",
         "template"
     ],
-    "homepage": "https://startbootstrap.com/template-overviews/personal",
-    "bugs": {
-        "url": "https://github.com/StartBootstrap/startbootstrap-personal/issues",
-        "email": "feedback@startbootstrap.com"
-    },
-    "license": "MIT",
-    "author": "Start Bootstrap",
-    "contributors": [
-        "David Miller (https://davidmiller.io/)"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/StartBootstrap/startbootstrap-personal.git"
-    },
+    
     "dependencies": {
         "bootstrap": "5.2.3"
     },
